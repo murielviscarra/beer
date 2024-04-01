@@ -1,0 +1,284 @@
+/*root el ansestro mas anscestro
+doble guio para nueva cariable*/
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Anek+Gujarati:wght@100..800&family=Inter:wght@100..900&family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Anek+Gujarati:wght@100..800&family=Inter:wght@100..900&family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap');
+
+
+:root {
+    --dark-brown: #0D0D0D;
+    --brown: #59463F;
+    --terra: #8C3604;
+    --orange: #F2790F;
+    --yellow: #F2B33D;
+    --whitish: #fdf5e7;
+    --light-brown: #D7CDCA;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    display: block;
+}
+
+body {
+    background: #0D0D0D;
+    background-image: url(../imgs/wooden-table-with-blurred-restaurant-scene.jpg);
+
+    background-position: top;
+    background-size: 1442px;
+    background-repeat: no-repeat;
+    margin: 50px;
+    padding: 0;
+    font-family: "Afacad", sans-serif;
+
+
+}
+
+.contenedor{
+    width: 1236px;
+    margin: 0 auto;
+}
+
+.segundo h1 {
+    color: var(--yellow);
+    margin-top: 480px;
+    margin-left: 155px;
+    font-size: 47.78px;
+    font-family: "Montagu Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+
+}
+
+.segundo h2 {
+    color: var(--yellow);
+    margin-top: -470px;
+    margin-left: 340px;
+    font-size: 80px;
+    font-family: "Montagu Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    text-shadow: 0px 0px 10px var(--dark-brown);
+
+}
+
+.segundo h1:hover {
+    text-shadow: 0 0 5px var(--yellow);
+    /* Brillo blanco al pasar el ratón */
+
+}
+
+button {
+
+    background-color: var(--yellow);
+    margin-left: 325px;
+    margin-top: 20px;
+    font-size: 23.04px;
+
+    font-family: "Afacad", sans-serif;
+    border-radius: 50px;
+    width: 222px;
+    height: 56px;
+    font-weight: 700;
+}
+
+button:hover {
+    transform: scale(1.1);
+    color: var(--light-brown);
+    background-color: var(--terra);
+}
+
+.submenu li a:active {}
+
+#perfil {
+    width: 70px;
+    height: auto;
+    margin-left: 700px;
+    border: 5px solid var(--terra);
+    border-radius: 50%;
+    transform: rotate(0deg);
+
+}
+
+#perfil:hover {
+    transform: scale(1.1);
+    /* Brillo blanco al pasar el ratón */
+}
+
+.cerve img {
+    width: 360px;
+    margin-top: -400px;
+    margin-left: 752px;
+    transform: rotate(-18.85deg);
+    transition: 0.3s ease;
+
+}
+
+
+
+img:hover {
+    transform: rotate(0deg);
+}
+
+.segundo p {
+    color: var(--light-brown);
+    margin-top: -444px;
+    margin-left: 150px;
+    font-family: "Montagu Slab", serif;
+    font-size: 23.04px;
+    font-weight: 00;
+    width: 600px;
+}
+
+header {
+    background-color: rgba(13, 13, 13, 0.6);
+    margin:0 auto;
+    width: 1236px;
+    height: 780px;
+    border-radius: 59px;
+    position: relative;
+   
+
+}
+
+.segundo h1 {
+    color: var(--yellow);
+    margin-top: 480px;
+    margin-left: 155px;
+
+}
+
+header h1 {
+    position: absolute;
+    top: -82px;
+    left: 0;
+}
+
+header h1 a {
+    display: block;
+    width: 217px;
+    height: 265px;
+    margin-top: 80px;
+    margin-left: 47px;
+    text-indent: -9999px;
+    background-image: url(../imgs/bezierbar_logo.svg);
+
+}
+
+
+header nav {
+    width: 830px;
+    height: 940px;
+    margin-left: 400px;
+
+}
+
+header nav>ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    /* se muestran horizontales*/
+}
+
+header nav>ul>li {
+    position: relative;
+}
+
+header nav>ul>li>a {
+    display: block;
+
+    height: 100px;
+    padding: 63px 20px 0 10px;
+    font-size: 27.65px;
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--whitish);
+    transition: all 500ms;
+}
+
+
+header nav>ul>li>a span {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 13px;
+}
+
+header nav>ul li a .caret_down {
+    background: url(../imgs/caret_down.png);
+}
+
+header nav>ul li a .caret_up {
+    background: url(../imgs/caret_up.png);
+
+}
+
+header nav>ul>li>a:hover {
+    text-shadow: 0 0 20px var(--yellow);
+    font-size: 230%;
+    /* Brillo blanco al pasar el ratón */
+}
+
+
+
+header nav>ul>li:hover .submenu {
+
+    display: flex;
+    /*PARA QUE SE ORGANICEN HORIZONTALMENTE*/
+}
+
+.submenu {
+    display: none;
+    /*hace que se esconda*/
+    list-style: none;
+    /*PAR QUE NO HAYA LOS BULLETS*/
+    padding: 0;
+    margin: 10px;
+    background: var(--terra);
+    position: absolute;
+}
+
+.submenu li {}
+
+.submenu li:last-child a /para que el ultimo elemento no tenga el border-right/ {
+    border-right: none;
+}
+
+.submenu li a {
+    display: block;
+    padding: 10px 25px;
+    color: var(--light-brown);
+    font-weight: 700;
+    text-decoration: none;
+    border-right: 1px solid var(--light-brown);
+}
+
+.submenu li a:hover {
+    background-color: var(--dark-brown);
+}.events ul{
+    padding-top: 83px;
+}
+.events ul li{ /*contenedor de las imagenes*/
+    border-radius: 10px;
+    overflow: hidden;
+    width: 271px;
+    height: 127px;
+    
+
+    }
+    .events ul li img{
+    height: 127px;
+    width: auto ;
+    }
+    main .hero img{
+        width: 100%;
+    
+    }
+    footer{
+        background: #59463F;
+        padding: 15px;
+    }
